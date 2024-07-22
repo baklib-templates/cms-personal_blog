@@ -1,0 +1,250 @@
+{% set_meta_title '测试页' %}
+{% set_meta_description '测试使用' %}
+{% set_meta_keywords 'Baklib,Daisy,Test Demo' %}
+
+<section class="mx-auto max-w-screen-md">
+
+<div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a>
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a>
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a>
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a>
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+
+<!-- buttons -->
+<div class="p-4">
+  <button class="btn btn-primary">primary</button>
+  <button class="btn btn-secondary">secondary</button>
+  <button class="btn btn-accent">accent</button>
+</div>
+
+<!-- same buttons with another theme! -->
+<div class="p-4" data-theme="cupcake">
+  <button class="btn btn-primary">primary</button>
+  <button class="btn btn-secondary">secondary</button>
+  <button class="btn btn-accent">accent</button>
+</div>
+
+<!-- tab -->
+<div class="p-4 tabs tabs-lifted">
+  <button class="tab">Tab 1</button>
+  <button class="tab tab-active">Tab 2</button>
+  <button class="tab">Tab 3</button>
+	<button class="tab"></button>
+</div>
+
+<!-- toggle -->
+<div class="p-4">
+  <input type="checkbox" class="toggle toggle-primary">
+  <input type="checkbox" class="toggle toggle-secondary">
+  <input type="checkbox" class="toggle toggle-accent">
+</div>
+
+<!-- card -->
+<div class="card shadow-2xl w-80 m-4">
+  <figure>
+    <img src="https://picsum.photos/id/1005/500/250"/>
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">DaisyUI Card</h2>
+    <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus.</p>
+  </div>
+</div>
+
+
+<!-- dropdown -->
+<details class="dropdown m-4">
+  <summary class="m-1 btn">open / close</summary>
+  <ul class="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+</details>
+
+<!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+<dialog id="my_modal_1" class="modal">
+  <form method="dialog" class="modal-box">
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- steps -->
+<ul class="steps my-4 w-full">
+  <li class="step step-primary">Register</li>
+  <li class="step step-primary">Choose plan</li>
+  <li class="step">Purchase</li>
+  <li class="step">Receive Product</li>
+</ul>
+
+<!-- chat bubble -->
+<div class="chat chat-start m-4">
+  <div class="chat-image avatar">
+    <div class="w-10 rounded-full">
+      <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+    </div>
+  </div>
+  <div class="chat-bubble">
+    see all components <a class="link" target="_blank" href="https://daisyui.com/components">Here</a>
+  </div>
+</div>
+
+
+
+  <div class="carousel w-full">
+    <div id="item1" class="carousel-item w-full">
+      <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+    </div>
+    <div id="item2" class="carousel-item w-full">
+      <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+    </div>
+    <div id="item3" class="carousel-item w-full">
+      <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+    </div>
+    <div id="item4" class="carousel-item w-full">
+      <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+    </div>
+  </div>
+  <div class="flex justify-center w-full py-2 gap-2">
+    <a href="#item1" class="btn btn-xs">1</a>
+    <a href="#item2" class="btn btn-xs">2</a>
+    <a href="#item3" class="btn btn-xs">3</a>
+    <a href="#item4" class="btn btn-xs">4</a>
+  </div>
+
+
+  <button class="btn btn-primary bg-primary">Button</button>
+  <button class="btn w-64 rounded-full">Button</button>
+
+  <a href="/s/get-started" class="btn btn-primary bg-primary">Get Started</a>
+
+  <div class="w-full h-12 bg-primary-50">bg-primary-50</div>
+  <div class="w-full h-12 bg-primary">bg-primary</div>
+  <div class="w-full h-12 bg-secondary">bg-secondary</div>
+  <div class="w-full h-12 bg-accent">bg-accent</div>
+  <div class="w-full h-12 bg-info">bg-info</div>
+  <div class="w-full h-12 bg-success">bg-success</div>
+  <div class="w-full h-12 bg-warning">bg-warning</div>
+
+  <h1>折叠内容</h1>
+  <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" checked="checked" />
+      <div class="collapse-title text-xl font-medium">
+        Click to open this one and close others
+      </div>
+      <div class="collapse-content">
+        <p>hello</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        Click to open this one and close others
+      </div>
+      <div class="collapse-content">
+        <p>hello</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        Click to open this one and close others
+      </div>
+      <div class="collapse-content">
+        <p>hello</p>
+      </div>
+  </div>
+
+
+<div class="drawer">
+  <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+  <div class="drawer-content flex flex-col">
+    <!-- Navbar -->
+    <div class="w-full navbar bg-base-300">
+      <div class="flex-none lg:hidden">
+        <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </label>
+      </div>
+      <div class="flex-1 px-2 mx-2">Navbar Title</div>
+      <div class="flex-none hidden lg:block">
+        <ul class="menu menu-horizontal">
+          <!-- Navbar menu content here -->
+          <li><a>Navbar Item 1</a></li>
+          <li><a>Navbar Item 2</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Page content here -->
+    Content
+  </div>
+  <div class="drawer-side">
+    <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
+    <ul class="menu p-4 w-80 min-h-full bg-base-200">
+      <!-- Sidebar content here -->
+      <li><a>Sidebar Item 1</a></li>
+      <li><a>Sidebar Item 2</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="mockup-browser border bg-base-300">
+  <div class="mockup-browser-toolbar">
+    <div class="input">https://daisyui.com</div>
+  </div>
+  <div class="flex justify-center px-4 py-16 bg-base-200">Hello!</div>
+</div>
+
+<div class="mockup-code">
+  <pre data-prefix="$"><code>npm i daisyui</code></pre>
+  <pre data-prefix=">" class="text-warning"><code>installing...</code></pre>
+  <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
+</div>
+
+<div class="mockup-code">
+  <pre data-prefix="~"><code>Magnam dolore beatae necessitatibus nemopsum itaque sit. Et porro quae qui et et dolore ratione.</code></pre>
+</div>
+
+<div class="mockup-phone">
+  <div class="camera"></div>
+  <div class="display">
+    <div class="artboard artboard-demo phone-1">Hi.</div>
+  </div>
+</div>
+
+
+<div class="mockup-window border bg-base-300">
+  <div class="flex justify-center px-4 py-16 bg-base-200">Hello!</div>
+</div>
+
+
+
+</section>

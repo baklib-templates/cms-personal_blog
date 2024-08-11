@@ -1,5 +1,7 @@
 # 说明
-2222
+
+基于 DaisyUI 库开发网站应用，详情见： https://daisyui.com/
+
 ## 本地开发
 
 ````bash

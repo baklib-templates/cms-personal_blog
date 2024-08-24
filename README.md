@@ -1,19 +1,13 @@
 # 说明
 
-基于 DaisyUI 库开发网站应用，详情见： https://daisyui.com/
+Personal Blog 个人博客模板，适用于创建个人博客、个人简历、相册、小型内容站点等。
 
-## 本地开发
+## 将模板添加的Baklib组织模板中
 
 ````bash
-npm run dev
+git@gitlab.com:baklib/themes/personal-blog.git
 ````
-
-执行上面的命令，会自动监听文件变化，实时编译 css 和 js 资源
 
 ## 编译资源
 
-````bash
-npm run build
-````
-
-执行上面的命令，编译 css 和 js 资源
+在线Demo：https://blog.baklib.vip

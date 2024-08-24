@@ -1,18 +1,19 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "daisy",
+    "theme_name": "personal_blog",
     "theme_label": "t:theme_label",
     "theme_version": "1.0.0",
     "theme_scope": "cms",
     "theme_author": "Baklib",
     "theme_description": "t:theme_description",
-    "theme_documentation_url": "https://help.baklib.cn/themes/daisy",
-    "theme_support_url": "https://help.baklib.cn/themes/daisy/settings",
+    "theme_documentation_url": "https://help.baklib.cn/themes/personal-blog",
+    "theme_support_url": "https://help.baklib.cn/themes/personal-blog/settings",
     "theme_thumb_url": "images/theme/thumb.png",
     "theme_preview_images": [
+      "images/theme/personal-blog.png",
+      "images/theme/index-dark.png",
       "images/theme/index.png",
-      "images/theme/examples.png",
       "images/theme/page.png"
     ],
     "theme_languages": [
@@ -60,28 +61,60 @@
       },
       "initial_pages": {
         "default": {
-          "name": "Support Site",
+          "name": "Personal Blog",
           "default": true,
           "pages": [
             {
-              "name": "Support",
-              "slug": "support",
-              "template": "page"
+              "name": "Project 1",
+              "slug": "project1",
+              "template": "page",
+              "settings":{
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+                "type": "1"
+              }
             },
             {
-              "name": "Blog",
-              "slug": "blog",
-              "template": "page"
+              "name": "Project 2",
+              "slug": "project2",
+              "template": "page",
+              "settings":{
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+                "type": "1"
+              }
+
             },
             {
-              "name": "FAQ",
-              "slug": "faq",
-              "template": "page"
+              "name": "Project 3",
+              "slug": "project3",
+              "template": "page",
+              "settings":{
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+                "type": "1"
+              }
             },
             {
-              "name": "Changelog",
-              "slug": "changelog",
-              "template": "page"
+              "name": "The First Blog Post",
+              "slug": "post1",
+              "template": "page",
+              "settings":{
+                "type": "0"
+              }
+            },
+            {
+              "name": "The Second Blog Post",
+              "slug": "post2",
+              "template": "page",
+              "settings":{
+                "type": "0"
+              }
+            },
+            {
+              "name": "The Third Blog Post",
+              "slug": "post3",
+              "template": "page",
+              "settings":{
+                "type": "0"
+              }
             }
           ]
         }
@@ -92,30 +125,31 @@
     "name": "t:settings_schema.generic.name",
     "settings": [
       {
-        "id": "hero_image_url",
-        "type": "image_picker",
-        "ratio": "19:6",
-        "width": 900,
-        "label": "t:settings_schema.generic.settings.hero_image_url.label",
-        "info": "t:settings_schema.generic.settings.hero_image_url.info"
+        "id": "is_open_intro_guide",
+        "type": "checkbox",
+        "default": false,
+        "label": "开启Intro Step Guide 指引教程",
+        "info": "Demo项目使用，正式项目不需要开启"
       },
       {
-        "id": "description",
+        "id": "search_title",
+        "label": "搜索栏标题",
+        "info": "放在底部搜索栏位置标题",
         "type": "text",
-        "label": "t:settings_schema.generic.settings.description.label",
-        "default": "👋 What Can We Help?"
+        "default": "👏 Search for all the site"
       },
       {
-        "id": "hot_tags",
-        "label": "t:settings_schema.generic.settings.hot_tags.label",
+        "id": "search_info",
+        "label": "搜索栏描述",
+        "info": "底部搜索栏位置描述",
         "type": "text",
-        "default": ""
+        "default": "👏欢迎提出您的宝贵意见。"
       },
       {
         "id": "copyright_info",
-        "type": "text",
-        "label": "t:settings_schema.generic.settings.copyright_info.label",
-        "default": "t:settings_schema.generic.settings.copyright_info.default"
+        "label": "版权声明",
+        "type": "html",
+        "default": "👏 © Copyright 2024 by @tanmer. Built with ♥ <a href=''> Baklib.</a>。"
       }
     ]
   },

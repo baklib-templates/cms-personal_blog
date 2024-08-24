@@ -1,6 +1,6 @@
 {
-  "theme_label": "Daisy",
-  "theme_description": "基于开源 DaisyUI 的 CMS 模板，这只是一个基本框架，你可以基于 DaisyUI 设计高度定制化的网站系统。",
+  "theme_label": "Parsonal Blog",
+  "theme_description": "个人博客模板，用于构建个人简历、微型博客、个人网站，基于 Daisy UI。",
   "generic": {
     "close": "关闭",
     "back": "返回",

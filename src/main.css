@@ -1,42 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@config '../tailwind.config.js'
-
-@layer base{
-  /* generic css */
-  body.asleep header {
-    @apply h-[80px] shadow-md shadow-gray-400
-  }
-  body.asleep header .ctm-header_between {
-    @apply h-full
-  }
-  body.asleep header .ctm-header_center {
-    @apply h-full mt-6 sm:mt-5
-  }
-  body.asleep header .asleep_toggle {
-    @apply opacity-0 mt-4
-  }
-  body.asleep #screen {
-    @apply h-[80px]
-  }
-
-  /* Chrome, Safari and Opera */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-}
-
-@layer components{
-  /* Add your component styles here */
-  /* .fashion-button { @apply text-white bg-black border-2 border-black; } */
-}
-
-@layer utilities{
-  /* Add your utility styles here */
-  /* .full-container { width: 100%; max-width: 98%; } */
-}
+@config '../tailwind.config.js';

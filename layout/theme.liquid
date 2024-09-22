@@ -8,12 +8,16 @@
     {{ 'editor.css' | asset_url | stylesheet_tag: data-turbo-track: 'reload' }}
     {{ 'javascripts/main.js' | asset_url | script_tag: defer: true, data-turbo-track: 'reload' }}
     {{ 'css/main.css' | asset_url | stylesheet_tag: data-turbo-track: 'reload' }}
-    {%# TIPS：在低代码平台开发时，请打开下一行代码注释 %}
+    {%# TIPS：开启 Demo intro.js 演示 %}
     {% if site.settings.is_open_intro_guide %}
       <script src="https://unpkg.com/intro.js/intro.js"></script>
       <link href="https://unpkg.com/intro.js/introjs.css" rel="stylesheet">
+    {% endif %}
+    {%# TIPS：在低代码平台开发时，请打开下一行代码注释 %}
+    {% if false %}
       {{ 'javascripts/cdn.tailwindcss.js' | asset_url | script_tag: data-turbo-track: 'reload' }}
     {% endif %}
+
 
     {{ site.settings.head_html }}
     <!-- Theme Check and Update -->

@@ -10,4 +10,4 @@ git@gitlab.com:baklib/themes/personal-blog.git
 
 ## 编译资源
 
-在线Demo：https://blog.baklib.vip
+在线Demo：https://demo-personal-blog.uibak.com/

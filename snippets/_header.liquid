@@ -1,7 +1,7 @@
 <div id="header" class="mx-auto max-w-screen-lg px-3 py-6">
   <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between">
     <!-- Logo -->
-    <a href="/" aria-label="{{ site.name }}" class="flex items-center flex-grow">
+    <a href="{{site.index_path}}" aria-label="{{ site.name }}" class="flex items-center flex-grow">
       {% assign logo = 'images/logo.png' | asset_url %}
       <div class="flex items-center bg-gradient-to-br from-primary to-secondary bg-clip-text text-xl font-bold text-transparent">
         <img src="{{ site.favicon_url | default: logo }}" class="w-8 h-8" alt="Docs" />

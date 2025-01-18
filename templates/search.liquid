@@ -5,7 +5,7 @@
         <nav aria-label="" class="block col-span-7 md:col-span-3" data-turbo="false">
           <ol class="flex flex-wrap p-0 mt-8 mb-4 space-x-2 bg-transparent">
             <li class="">
-              <a href="/" class="bg-slate-200 rounded-lg px-4 py-2 hover:bg-slate-400">{{ 'generic.back' | t }}</a>
+              <a href="{{site.index_path}}" class="bg-slate-200 rounded-lg px-4 py-2 hover:bg-slate-400">{{ 'generic.back' | t }}</a>
             </li>
           </ol>
         </nav>
@@ -39,7 +39,7 @@
         {% paginate_tag search.pages, as: 'items', per: 15 %}
           {% for page in items %}
             <div class="p-4 rounded-lg hover:bg-slate-200">
-              <a class="text-xl font-bold" href="{{ page.url }}">
+              <a class="text-xl font-bold" href="{{ page.path }}">
                 <span>{{ page.link_text | highlight: search.keywords }}</span>
               </a>
               <p class="mt-2 text-base text-gray-700">

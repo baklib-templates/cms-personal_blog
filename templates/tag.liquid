@@ -13,7 +13,7 @@
         {% paginate_tag tag.pages, as: 'pages' %}
           {% for page in pages %}
             <div class="p-4 rounded-lg hover:bg-slate-200">
-              <a class="text-xl font-bold" href="{{ page.url }}">
+              <a class="text-xl font-bold" href="{{ page.path }}">
                 <span>{{ page.link_text | highlight: search.keywords }}</span>
               </a>
               <p class="mt-2 text-base text-gray-700">

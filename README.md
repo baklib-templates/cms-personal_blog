@@ -1,6 +1,6 @@
-# 说明
+# Baklib CMS Personal Site 模板
 
-Personal Blog 个人博客模板，适用于创建个人博客、个人简历、相册、小型内容站点等。
+Personal Site 个人博客模板，适用于创建个人博客、个人简历、相册、小型内容站点等。
 
 模板信息：
 
@@ -21,12 +21,9 @@ Personal Blog 个人博客模板，适用于创建个人博客、个人简历、
 
 
 
-## 将模板添加的Baklib组织模板中
+## 预览
 
-````bash
-git@gitlab.com:baklib/themes/personal-blog.git
-````
+Demo：https://demo-personal-blog.uibak.com/
 
-## 编译资源
+![index](https://tanmer.baklib.com/-/dam/assets/organization_pry3c5--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MTc5ODAsInBhdGgiOiJwZXJzb25hbCBibG9nIGRlbW8ucG5nIiwidGltZXN0YW1wIjoiMjAyNC0wOS0yMiAyMzo0NDoxNCArMDgwMCJ9LCJwdXIiOiJvcmdhbml6YXRpb25fcHJ5M2M1LS1tYWluLXZlcnNpb24ifX0--016acf16b7ab58d31b225fc6e3e9de5f9156ca966cf7d9cbb32787442e4c514d/personal%20blog%20demo.png)
 
-在线Demo：https://demo-personal-blog.uibak.com/

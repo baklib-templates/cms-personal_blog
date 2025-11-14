@@ -1,0 +1,140 @@
+pages:
+  template_name: "index"
+  settings:
+    title: "Hi there, I'm <span class='text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary'>Mia Chen</span> 👋"
+    description: "产品策略顾问、自由写作者与播客主。这个角落收集深度文章、实践项目与创作幕后。"
+    avatar: "images/avatar.svg"
+  children:
+    - name: "星际黑客松体验"
+      slug: "project-orion-lab"
+      template_name: "page"
+      settings:
+        title: "星际黑客松体验"
+        type: 1
+        thumb_url: "images/project-1.png"
+        description: "与来自 4 个国家的开发者共建太空旅游原型，用 36 小时交付沉浸式体验。"
+        content: |-
+          <h2>项目概况</h2>
+          <p>Orion Lab 黑客松聚焦「未来出行」，我负责产品策略、故事板设计以及现场主持。我们用 36 小时完成了太空旅行体验的数字化原型，并获得主办方“用户体验奖”。</p>
+          <h3>我的角色</h3>
+          <ul>
+            <li>梳理 5 段关键旅程，定义每个节点的情绪与目标。</li>
+            <li>组织 12 次快速可用性测试，指导工程组完成迭代。</li>
+            <li>撰写发布材料并协调 pitch，最终获得 3 家媒体报道。</li>
+          </ul>
+          <h3>工具与成果</h3>
+          <p>使用 FigJam、Spline 与 Webflow 实现可演示的沉浸式场景，当前原型已部署在 <a href="https://orion-lab.example" target="_blank" rel="noopener">项目官网</a>。</p>
+        tags: []
+    - name: "云知笔记 2.0"
+      slug: "project-cloud-notes"
+      template_name: "page"
+      settings:
+        title: "云知笔记 2.0"
+        type: 1
+        thumb_url: "images/project-2.png"
+        description: "为 SaaS 团队设计知识手册模板，提升内训效率 42%。"
+        content: |-
+          <h2>问题背景</h2>
+          <p>不少 SaaS 团队在知识沉淀上缺少结构化方案，版本混乱、更新困难。我帮助客户重构知识库信息架构，并设计了可复用的模板体系。</p>
+          <h3>关键动作</h3>
+          <ol>
+            <li>通过用户访谈与日志研究确认了 4 种主要读者画像。</li>
+            <li>结合 Baklib 模板与 Git 同步策略，搭建标准发布流程。</li>
+            <li>定义 KPI 仪表盘，以阅读率、评论量、复训完成率作为核心指标。</li>
+          </ol>
+          <p>升级后的知识库在上线 6 周后，培训问答数量下降 38%，大幅减少了客服工作量。</p>
+        tags: []
+    - name: "灵感闪电营"
+      slug: "project-lightning-camp"
+      template_name: "page"
+      settings:
+        title: "灵感闪电营"
+        type: 1
+        thumb_url: "images/project-3.png"
+        description: "一次 3 天 2 夜的即兴写作营，帮助创作者重启灵感循环。"
+        content: |-
+          <h2>活动亮点</h2>
+          <ul>
+            <li>设计“创作仪式”模块，结合呼吸练习与写作提示，帮助学员快速进入创作状态。</li>
+            <li>引入公共成果墙，现场展示实时迭代的文稿，营造鼓励反馈的氛围。</li>
+            <li>营期结束后持续 30 天线上共写，每周两次 live review。</li>
+          </ul>
+          <p>目前已有 68 位创作者参加，超过 70% 的学员坚持完成后续共写计划。</p>
+        tags: []
+    - name: "写作系统升级：从想法到长文的 5 步循环"
+      slug: "writing-system-loop"
+      template_name: "page"
+      settings:
+        title: "写作系统升级：从想法到长文的 5 步循环"
+        type: 0
+        thumb_url: "images/image-post1.jpg"
+        description: "分享我用于维持持续创作的五段式流程，从灵感捕捉到发布复盘。"
+        content: |-
+          <p>过去一年我写了 56 篇长文，依靠的是一套稳定的“输入-发酵-提炼-写作-复盘”循环。文章拆解了每个环节的关键动作、常见阻碍与工具选择。</p>
+          <h3>流程速记</h3>
+          <ol>
+            <li><strong>输入：</strong>搭建主题化灵感库，设定每周复盘时间。</li>
+            <li><strong>发酵：</strong>使用 Obsidian 将零散想法串联，并添加行动标记。</li>
+            <li><strong>提炼：</strong>用“问题树”结构提炼骨架，确保观点集中。</li>
+            <li><strong>写作：</strong>按模块先填素材，再润色句式，保留读者提问位。</li>
+            <li><strong>复盘：</strong>记录传播数据与读者反馈，更新模板。</li>
+          </ol>
+          <p>文末提供了可下载的 <a href="https://example.com/template" target="_blank" rel="noopener">Notion 模板</a>，欢迎使用并分享你的实践。</p>
+        tags: []
+    - name: "年度复盘：自由职业者的财务与心理检查单"
+      slug: "freelance-annual-review"
+      template_name: "page"
+      settings:
+        title: "年度复盘：自由职业者的财务与心理检查单"
+        type: 0
+        thumb_url: "images/image-post2.jpg"
+        description: "对过去一年的收入结构、项目投入与情绪状态进行盘点，制定下一阶段策略。"
+        content: |-
+          <p>这篇文章拆分了年度复盘的两个维度——<strong>财务健康</strong>与<strong>心理稳态</strong>。分享我使用的仪表盘、心境记录与应对策略，希望帮助更多自由职业者建立安全感。</p>
+          <ul>
+            <li>收入结构：项目、课程、社群的占比及波动。</li>
+            <li>成本与投资：工具订阅、学习预算、人力协作。</li>
+            <li>心理监测：能量条记录、情绪触发器、恢复方案。</li>
+          </ul>
+        tags: []
+    - name: "远程协同的写作工作坊搭建指南"
+      slug: "remote-workshop-guide"
+      template_name: "page"
+      settings:
+        title: "远程协同的写作工作坊搭建指南"
+        type: 0
+        thumb_url: "images/image-post3.jpg"
+        description: "拆解线上工作坊的筹备步骤，从报名、工具配置到直播互动。"
+        content: |-
+          <p>疫情后线上写作营成为常态。我把数次实践中沉淀的 SOP 与工具组合整理成指南，帮助想要搭建远程工作坊的创作者快速起步。</p>
+          <h3>搭建重点</h3>
+          <ol>
+            <li>确定目标与评估指标，设置进度提醒。</li>
+            <li>搭建互动区：使用 Discord + Notion 组合维护社群与素材。</li>
+            <li>引入即时协作工具，例如 FigJam 或 Liveblocks，降低沟通成本。</li>
+          </ol>
+        tags: []
+    - name: "播客七日挑战：声音故事的快速实验"
+      slug: "podcast-seven-day-challenge"
+      template_name: "page"
+      settings:
+        title: "播客七日挑战：声音故事的快速实验"
+        type: 0
+        thumb_url: "images/image-post4.jpg"
+        description: "记录 7 天连更播客的全过程，包括脚本结构、录制技巧与分发策略。"
+        content: |-
+          <p>这是一次紧凑而充满挑战的实验，我结合 Evernote 脚本、iPad 录音与 Auphonic 后期，在七天内发布了七期节目。文中总结了每一步的踩坑经验。</p>
+          <p>同时也梳理了跨平台分发策略、听众反馈收集表以及复盘清单，帮助你快速评估成效。</p>
+        tags: []
+    - name: "写给未来读者的信：为什么持续分享？"
+      slug: "letter-to-future-readers"
+      template_name: "page"
+      settings:
+        title: "写给未来读者的信：为什么持续分享？"
+        type: 0
+        thumb_url: "images/image-post5.jpg"
+        description: "一封写给读者与未来自己的信，谈创作初心与社区愿景。"
+        content: |-
+          <p>创作从来不是独角戏。我希望这个博客成为一条双向街道，让灵感在读者之间流转。写这封信，是为了记录当下的动机，也邀请你一同见证未来的每一次迭代。</p>
+          <p>如果想收到月度通讯，可以在页脚订阅邮件，或加入 Telegram 社群。</p>
+        tags: []

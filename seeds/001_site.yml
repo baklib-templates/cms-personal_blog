@@ -1,0 +1,30 @@
+site:
+  language: "zh-CN"
+  settings:
+    is_open_intro_guide: false
+    search_title: "开始探索"
+    search_info: "在这里查找你关心的文章、项目与创作笔记。"
+    copyright_info: "👏 © 2025 星尘写所. 构建于 <a href='https://www.baklib.cn' target='_blank' rel='noopener'>Baklib</a>."
+    header_menu_html: |-
+      <a href="/">首页</a>
+      <a href="">项目案例</a>
+      <a href="">最新文章</a>
+    footer_menu_html: |-
+      <a href="/">返回首页</a>
+      <a href="mailto:hello@example.com">联系我</a>
+      <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+    head_html: ""
+    features_one: |-
+      <section class="p-5 rounded-xl bg-slate-100">
+        <h3 class="text-lg font-semibold">内容主题</h3>
+        <p class="mt-2 text-slate-600">围绕个人品牌升级、创意写作与效率工具展开，记录产品背后的故事。</p>
+      </section>
+    features_two: |-
+      <section class="p-5 rounded-xl bg-slate-100">
+        <h3 class="text-lg font-semibold">创作节奏</h3>
+        <p class="mt-2 text-slate-600">每周三发布长文、周末分享项目拆解，帮助读者持续吸收灵感。</p>
+      </section>
+    features_three: |-
+      <section class="p-5 rounded-xl bg-slate-100">
+        <h3 class="text-lg font-semibold">互动方式</h3>
+        <p class="mt-2 text-slate-600">在页面底部留言或通过邮件订阅，第一时间获得最新更新与幕后花絮。</p>
